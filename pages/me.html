@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mechanical Engineering — MITS Gwalior</title>
+  <meta name="theme-color" content="#060D1F">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@600,700&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- ================= OVERRIDDEN NAVBAR (Rel Paths) ================= -->
+  <header class="navbar navbar--scrolled" id="navbar" style="background: rgba(6,13,31,0.98);">
+    <div class="navbar__container">
+      <a class="navbar__logo" href="../index.html">
+        <img src="../assets/images/mits-logo.png" alt="MITS Logo" class="navbar__logo-img">
+        <div class="navbar__logo-text-wrap">
+          <span class="navbar__logo-text">MITS</span>
+          <span class="navbar__logo-sub">Deemed University</span>
+        </div>
+      </a>
+      <nav class="navbar__links" id="navbar-links">
+        <a href="../index.html#about" class="nav-link">About</a>
+        <a href="../index.html#academics" class="nav-link">Academics</a>
+        <a href="../index.html#departments" class="nav-link active">Departments</a>
+        <a href="../index.html#contact" class="nav-link">Contact</a>
+      </nav>
+      <a href="../index.html#contact" class="btn btn--primary navbar__cta">Apply Now</a>
+    </div>
+  </header>
+
+  <main style="padding-top: var(--space-12);">
+    <div class="container" style="padding-bottom: var(--space-9);">
+      
+      <!-- Dept Hero -->
+      <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: var(--space-8) var(--space-6); text-align: center; margin-bottom: var(--space-8);">
+        <div style="font-size: 4rem; margin-bottom: var(--space-3);">⚙️</div>
+        <h1 class="section-title" style="margin-bottom: var(--space-2);">Mechanical Engineering</h1>
+        <p class="section-subtitle" style="max-width: 600px; margin: 0 auto; line-height: 1.6;">Designing tomorrow's physical machinery and sustainable robotics. Exploring new horizons in learning, equipped with ultra-modern smart classrooms and industry-collaboration projects.</p>
+        <div style="margin-top: var(--space-5);">
+            <a href="#curriculum" class="btn btn--primary">View Curriculum</a>
+            <a href="../index.html#departments" class="btn btn--outline" style="margin-left: var(--space-3);">Back to Departments</a>
+        </div>
+      </div>
+
+      <!-- Dept Content Grid -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-6);">
+        
+        <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius-md); padding: var(--space-5);">
+          <h3 style="color: var(--accent-gold); margin-bottom: var(--space-3);">Head of Department's Message</h3>
+          <p style="color: var(--text-secondary); line-height: 1.7;">
+            "Welcome to the Mechanical Engineering department. Our primary vision is to empower our students with solid theoretical foundations mixed with highly practical, project-based applications that solve global industry challenges."
+          </p>
+        </div>
+        
+        <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius-md); padding: var(--space-5);">
+          <h3 style="color: var(--accent-gold); margin-bottom: var(--space-3);">Key Laboratories</h3>
+          <ul style="color: var(--text-secondary); list-style: none; display: flex; flex-direction: column; gap: 10px;">
+            <li>✓ Advanced Simulator Lab</li>
+            <li>✓ Computing & Prototyping Workshop</li>
+            <li>✓ Data Analysis & Sensing Studio</li>
+            <li>✓ AR/VR Innovation Bay</li>
+          </ul>
+        </div>
+
+        <div id="curriculum" style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius-md); padding: var(--space-5); grid-column: 1 / -1;">
+          <h3 style="color: var(--accent-gold); margin-bottom: var(--space-3);">Curriculum & Research</h3>
+          <p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: var(--space-3);">
+            Aligned directly with NEP 2020 frameworks, the Mechanical Engineering course is extremely flexible, offering major and minor specialization tracks. Students here participate in deep academic internships with leading MNCs and heavily lean into the Novel Engaging Courses (NEC).
+          </p>
+          <div style="display: flex; gap: var(--space-3); flex-wrap: wrap;">
+             <span style="background: var(--bg-tertiary); padding: var(--space-1) var(--space-3); border-radius: var(--radius-full); font-size: var(--text-small);">Machine Learning Basics</span>
+             <span style="background: var(--bg-tertiary); padding: var(--space-1) var(--space-3); border-radius: var(--radius-full); font-size: var(--text-small);">Advanced Embedded Principles</span>
+             <span style="background: var(--bg-tertiary); padding: var(--space-1) var(--space-3); border-radius: var(--radius-full); font-size: var(--text-small);">Global Project Ethics</span>
+             <span style="background: var(--bg-tertiary); padding: var(--space-1) var(--space-3); border-radius: var(--radius-full); font-size: var(--text-small);">Quantum Data Math</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>
